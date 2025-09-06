@@ -1,0 +1,5 @@
+Green: C7EB29
+Purple: 69088D
+Light purple: 981F94
+White: F5F5F5
+Black: 292929
