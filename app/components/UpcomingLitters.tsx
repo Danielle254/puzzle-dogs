@@ -1,12 +1,13 @@
 import { Button } from "@/components/ui/button";
+import Link from "next/link";
 
 export default function UpcomingLitters() {
   return (
     <section className="py-12 px-4 bg-primary/10">
       <div className="max-w-[1000px] mx-auto ">
         <h2>Upcoming Litters</h2>
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
-          <article>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <article className="border border-foreground/20 rounded shadow p-4">
             <img
               src="/images/puppy_running.jpg"
               className="shadow rounded-sm w-full h-60 object-cover object-center"
@@ -16,9 +17,13 @@ export default function UpcomingLitters() {
               Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
               commodo ligula eget
             </p>
-            <Button>Facebook Group</Button>
+            <Button asChild>
+              <Link href="https://www.facebook.com/groups/1284773736438170">
+                FACEBOOK GROUP
+              </Link>
+            </Button>
           </article>
-          <article>
+          <article className="border border-foreground/20 rounded shadow p-4">
             <img
               src="/images/biz_profile.jpg"
               className="shadow rounded-sm w-full h-60 object-cover object-center"
@@ -28,7 +33,9 @@ export default function UpcomingLitters() {
               Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
               commodo ligula eget
             </p>
-            <Button>Learn More</Button>
+            <Button asChild>
+              <Link href="https://www.facebook.com/puzdog/">LEARN MORE</Link>
+            </Button>
           </article>
         </div>
       </div>
