@@ -1,10 +1,11 @@
 import { Button } from "@/components/ui/button";
+import Link from "next/link";
 
 export default function Intro() {
   return (
     <section className="max-w-[1000px] mx-auto py-12 px-4">
       <h2>Tagline</h2>
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 pb-8">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 pb-8">
         <p className="text-lg">
           Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
           commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus
@@ -22,7 +23,9 @@ export default function Intro() {
         </p>
         <img src="/images/puppies.jpg" className="rounded-sm shadow" />
       </div>
-      <Button variant="outline">LEARN MORE</Button>
+      <Button variant="outline" asChild>
+        <Link href="https://www.facebook.com/puzdog/">LEARN MORE</Link>
+      </Button>
     </section>
   );
 }
