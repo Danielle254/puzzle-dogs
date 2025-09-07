@@ -6,7 +6,7 @@ import UpcomingLitters from "./components/UpcomingLitters";
 export default function Home() {
   return (
     <div>
-      <Hero />
+      <Hero image="/images/pan_hero_2.jpg" />
       <Intro />
       <UpcomingLitters />
       <StayConnected />

@@ -1,8 +1,8 @@
-export default function Hero() {
+export default function Hero({ image }: { image: string }) {
   return (
     <section>
       <img
-        src="/images/pan_hero_2.jpg"
+        src={image}
         alt="small brown and white dog runs across a grass field"
         className="w-full h-[calc(100vh-80px)]"
       />
