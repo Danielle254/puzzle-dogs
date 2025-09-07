@@ -42,7 +42,9 @@ export default function Header() {
           </Button>
         </li>
         <li>
-          <Button>Learn More</Button>
+          <Button asChild>
+            <Link href="https://www.facebook.com/puzdog/">LEARN MORE</Link>
+          </Button>
         </li>
       </ul>
     </nav>
