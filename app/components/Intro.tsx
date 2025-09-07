@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 
 export default function Intro() {
   return (
-    <section className="max-w-[1000px] mx-auto py-12">
+    <section className="max-w-[1000px] mx-auto py-12 px-4">
       <h2>Tagline</h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 pb-8">
         <p className="text-lg">
