@@ -4,7 +4,7 @@ export default function Hero({ image }: { image: string }) {
       <img
         src={image}
         alt="small brown and white dog runs across a grass field"
-        className="w-full h-[calc(100vh-80px)]"
+        className="w-full max-h-[calc(100vh-80px)] object-cover"
       />
     </section>
   );
