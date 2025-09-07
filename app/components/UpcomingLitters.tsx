@@ -9,16 +9,19 @@ export default function UpcomingLitters() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           <article className="border border-foreground/20 rounded shadow p-4">
             <img
-              src="/images/puppy_running.jpg"
+              src="/images/rivetXbizza.jpg"
               className="shadow rounded-sm w-full h-60 object-cover object-center"
             />
-            <h3 className="font-bold text-xl py-4">Biz x Stud Fall 2025</h3>
+            <h3 className="font-bold text-xl py-4">Rivet x Bizza Fall 2025</h3>
             <p className="text-lg pb-8">
               Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
               commodo ligula eget
             </p>
             <Button asChild>
-              <Link href="https://www.facebook.com/groups/1284773736438170">
+              <Link
+                href="https://www.facebook.com/groups/1284773736438170"
+                target="_blank"
+              >
                 FACEBOOK GROUP
               </Link>
             </Button>
@@ -34,7 +37,9 @@ export default function UpcomingLitters() {
               commodo ligula eget
             </p>
             <Button asChild>
-              <Link href="https://www.facebook.com/puzdog/">LEARN MORE</Link>
+              <Link href="https://www.facebook.com/puzdog/" target="_blank">
+                LEARN MORE
+              </Link>
             </Button>
           </article>
         </div>
