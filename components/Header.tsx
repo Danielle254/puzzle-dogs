@@ -20,7 +20,7 @@ export default function Header() {
             asChild
             className="font-bold text-lg text-foreground "
           >
-            <Link href="/">Home</Link>
+            <Link href="/">HOME</Link>
           </Button>
         </li>
         <li>
@@ -29,7 +29,7 @@ export default function Header() {
             asChild
             className="font-bold text-lg text-foreground"
           >
-            <Link href="/about">About</Link>
+            <Link href="/about">ABOUT</Link>
           </Button>
         </li>
         <li>
@@ -38,7 +38,7 @@ export default function Header() {
             asChild
             className="font-bold text-lg text-foreground"
           >
-            <Link href="/ourdogs">Our Dogs</Link>
+            <Link href="/ourdogs">OUR DOGS</Link>
           </Button>
         </li>
         <li>
