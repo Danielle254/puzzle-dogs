@@ -7,7 +7,7 @@ export default function UpcomingLitters() {
       <div className="max-w-[1000px] mx-auto ">
         <h2>Upcoming Litters</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          <article className="border border-foreground/20 rounded shadow p-4">
+          <article className="border border-foreground/20 rounded shadow p-4 bg-background">
             <img
               src="/images/rivetXbizza.jpg"
               className="shadow rounded-sm w-full h-60 object-cover object-center"
@@ -26,7 +26,7 @@ export default function UpcomingLitters() {
               </Link>
             </Button>
           </article>
-          <article className="border border-foreground/20 rounded shadow p-4">
+          <article className="border border-foreground/20 rounded shadow p-4 bg-background">
             <img
               src="/images/biz_profile.jpg"
               className="shadow rounded-sm w-full h-60 object-cover object-center"
