@@ -16,34 +16,42 @@ export default function WhyMutts() {
           <Accordion type="single" collapsible className="col-span-2">
             <AccordionItem value="item-1" className={accordionItemStyling}>
               <AccordionTrigger className="cursor-pointer">
-                They're awesome
+                <h3 className="text-xl">They're awesome</h3>
               </AccordionTrigger>
               <AccordionContent>
-                Further explanation and detail goes here.
+                <p className="text-lg">
+                  Further explanation and detail goes here.
+                </p>
               </AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-2" className={accordionItemStyling}>
               <AccordionTrigger className="cursor-pointer">
-                They're awesome
+                <h3 className="text-xl">They're awesome</h3>
               </AccordionTrigger>
               <AccordionContent>
-                Further explanation and detail goes here.
+                <p className="text-lg">
+                  Further explanation and detail goes here.
+                </p>
               </AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-3" className={accordionItemStyling}>
               <AccordionTrigger className="cursor-pointer">
-                They're awesome
+                <h3 className="text-xl">They're awesome</h3>
               </AccordionTrigger>
               <AccordionContent>
-                Further explanation and detail goes here.
+                <p className="text-lg">
+                  Further explanation and detail goes here.
+                </p>
               </AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-4" className={accordionItemStyling}>
               <AccordionTrigger className="cursor-pointer">
-                They're awesome
+                <h3 className="text-xl">They're awesome</h3>
               </AccordionTrigger>
               <AccordionContent>
-                Further explanation and detail goes here.
+                <p className="text-lg">
+                  Further explanation and detail goes here.
+                </p>
               </AccordionContent>
             </AccordionItem>
           </Accordion>
