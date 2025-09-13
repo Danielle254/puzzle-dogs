@@ -6,16 +6,15 @@ import {
 } from "@/components/ui/accordion";
 
 export default function WhyMutts() {
+  const accordionItemStyling =
+    "bg-background px-2 rounded mb-2 border-primary border-[1px] shadow";
   return (
     <section className="bg-primary/10">
       <div className="max-w-[1000px] mx-auto py-12 px-4">
         <h2>Why Mutts?</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 pb-8">
           <Accordion type="single" collapsible className="col-span-2">
-            <AccordionItem
-              value="item-1"
-              className="bg-background px-2 rounded mb-2"
-            >
+            <AccordionItem value="item-1" className={accordionItemStyling}>
               <AccordionTrigger className="cursor-pointer">
                 They're awesome
               </AccordionTrigger>
@@ -23,10 +22,7 @@ export default function WhyMutts() {
                 Further explanation and detail goes here.
               </AccordionContent>
             </AccordionItem>
-            <AccordionItem
-              value="item-2"
-              className="bg-background px-2 rounded mb-2"
-            >
+            <AccordionItem value="item-2" className={accordionItemStyling}>
               <AccordionTrigger className="cursor-pointer">
                 They're awesome
               </AccordionTrigger>
@@ -34,10 +30,7 @@ export default function WhyMutts() {
                 Further explanation and detail goes here.
               </AccordionContent>
             </AccordionItem>
-            <AccordionItem
-              value="item-3"
-              className="bg-background px-2 rounded mb-2"
-            >
+            <AccordionItem value="item-3" className={accordionItemStyling}>
               <AccordionTrigger className="cursor-pointer">
                 They're awesome
               </AccordionTrigger>
@@ -45,10 +38,7 @@ export default function WhyMutts() {
                 Further explanation and detail goes here.
               </AccordionContent>
             </AccordionItem>
-            <AccordionItem
-              value="item-4"
-              className="bg-background px-2 rounded"
-            >
+            <AccordionItem value="item-4" className={accordionItemStyling}>
               <AccordionTrigger className="cursor-pointer">
                 They're awesome
               </AccordionTrigger>
