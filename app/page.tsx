@@ -10,6 +10,7 @@ export default function Home() {
         image="/images/pan_hero_2.jpg"
         alt="small brown and white dog runs across a grass field"
         h1="Puzzle Dogs"
+        imageClasses="object-center"
       />
       <Intro />
       <UpcomingLitters />
