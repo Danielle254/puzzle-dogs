@@ -1,6 +1,3 @@
-import { Button } from "@/components/ui/button";
-import Link from "next/link";
-
 export default function Origin() {
   return (
     <section className="max-w-[1000px] mx-auto py-12 px-4">
@@ -25,9 +22,6 @@ export default function Origin() {
           arcu. In eni
         </p>
       </div>
-      <Button variant="outline" asChild>
-        <Link href="https://www.facebook.com/puzdog/">LEARN MORE</Link>
-      </Button>
     </section>
   );
 }
