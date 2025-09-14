@@ -3,7 +3,7 @@ import { Button } from "./ui/button";
 
 export default function Footer() {
   return (
-    <footer className="bg-primary/10 py-4">
+    <footer className="bg-primary/10 py-4 px-4">
       <div className="max-w-[1000px] mx-auto">
         <div className="flex flex-col items-start gap-2">
           {/* Copyright Statement */}
