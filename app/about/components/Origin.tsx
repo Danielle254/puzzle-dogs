@@ -5,21 +5,11 @@ export default function Origin() {
       <div className="flex flex-col gap-8 pb-8">
         <img src="/images/sara_family.jpg" className="rounded-sm shadow" />
         <p className="text-lg">
-          Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-          commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus
-          et magnis dis parturient montes, nascetur ridiculus mus. Donec quam
-          felis, ultricies nec, pellentesque eu, pretium quis, sem.
-          <br />
-          <br />
-          Nulla consequat massa quis enim. Donec pede justo, fringilla vel,
-          aliquet nec, vulputate eget, arcu. In eni pretium. Integer tincidunt.
-          Cras dapibus. Vivam
-          <br />
-          <br />
-          Nulla consequat massa quis enim. Donec pede justo, fringilla vel,
-          aliquet nec, vulputate eget, arcu. In eni Nulla consequat massa quis
-          enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget,
-          arcu. In eni
+          Honestly, in Minnesota we have a shortage of suitable pet dogs for the
+          average family. While we handle this by shipping dogs into our state
+          to help out overburdened shelters and rescues in the southern states,
+          I also wanted to contribute to the pet dog population by providing
+          health-tested, social, thoughtfully-raised puppies to our community.
         </p>
       </div>
     </section>
