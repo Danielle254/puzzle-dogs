@@ -12,7 +12,9 @@ export default function UpcomingLitters() {
               src="/images/rivetXbizza.jpg"
               className="shadow rounded-sm w-full h-60 object-cover object-center"
             />
-            <h3 className="font-bold text-xl py-4">Rivet x Bizza Fall 2025</h3>
+            <h3 className="font-bold text-xl py-4">
+              The Happy Pills (Rivet x Biz) born 9/18/25
+            </h3>
             <p className="text-lg pb-8">
               Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
               commodo ligula eget
