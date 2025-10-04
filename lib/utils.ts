@@ -17,3 +17,5 @@ export function filterData(
 }
 
 export function calculateAge(dob: string) {}
+
+export function truncateText(text: string) {}
