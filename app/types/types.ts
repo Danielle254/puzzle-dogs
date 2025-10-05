@@ -1,6 +1,7 @@
 export type DogDetailsType = {
   registeredName: string;
   kennelName: string;
+  profile: string;
   status: Status;
   titles: string;
   gender: Gender;
