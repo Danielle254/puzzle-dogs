@@ -19,7 +19,7 @@ export default function AboutSara() {
           </p>
           <img
             src="/images/sara_disc.jpg"
-            className="rounded-sm shadow col-span-1 order-1 max-w-[400px]"
+            className="rounded-sm shadow col-span-1 order-1"
           />
         </div>
       </div>
