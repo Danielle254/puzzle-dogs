@@ -3,36 +3,77 @@
     "registeredName": "G2G Iskierka",
     "kennelName": "Biz",
     "gender": "female",
-    "status": "active",
+    "status": "Active",
     "titles": "CGC SPOT RL1 ITD RATI",
     "owners": "Spoiled and loved by Sara and Matt in Burnsville, MN",
     "parents": "PSF Pantalaimon x G2G And Then I Got Pi",
-    "dob": "February 18th, 2019",
+    "dob": "2019-02-19",
     "breed": "Sport-bred Mutt",
     "physicalDesc": "13.5\", 18lb, brindle with white trim",
     "about": "Biz is my go-anywhere, up-for-anything girl! She’s traveled across the country with us three times, and is the perfect road trip buddy. She’s an under-the-covers snuggler with low exercise needs (she’s happy to veg for months at a time when my health issues flare up) but high exercise tolerance (if I feel up to hiking up a mountain, she’s game!). She’s naughty in the funniest ways, and easy to train for food, toys, or personal play.",
-    "links": {
-      "Pedigree": "https://dogs.pedigreeonline.com/g2g-iskierka-1YTCLKb0/",
-      "Health Testing (Embark)": "http://embk.me/g2giskierka?utm_campaign=cns_ref_dog_pub_profile&utm_medium=other&utm_source=embark",
-      "Health Testing (OFA)": "https://ofa.org/advanced-search/?appnum=2229522"
-    }
+    "links": [
+      {
+        "name": "Pedigree",
+        "path": "https://dogs.pedigreeonline.com/g2g-iskierka-1YTCLKb0/"
+      },
+      {
+        "name": "Health Testing (Embark)",
+        "path": "http://embk.me/g2giskierka?utm_campaign=cns_ref_dog_pub_profile&utm_medium=other&utm_source=embark"
+      },
+      {
+        "name": "Health Testing (OFA)",
+        "path": "https://ofa.org/advanced-search/?appnum=2229522"
+      }
+    ]
   },
   {
     "registeredName": "PSF Pantalaimon",
     "kennelName": "Pan",
     "gender": "male",
-    "status": "active",
+    "status": "Active",
     "titles": "CGC SPOT RLPX RL2 RATO ATD TD-ROM SN-C CCC2",
     "owners": "Spoiled and loved by Sara and Matt in Burnsville, MN",
     "parents": "Pretty Boy Floyd x PSF Happy Feet",
-    "dob": "August 14th, 2015",
+    "dob": "2015-08-14",
     "breed": "Sport-bred Mutt",
     "physicalDesc": "15\", 24lb, brindle with white trim",
     "about": "Pan is the Goodest of Boys(™)! He’s modeled professionally for Target and Publisher’s Clearinghouse, and is the perfect neutral dog for CGC tests or reactive dog classes. He’s a smiler, and loves to give hugs and press his face against your face to get as close as possible. He’s easy to live with and train, and is just all around the sweetest and most stable little guy. *neutered at age nine; three frozen breedings remaining to select pairings",
-    "links": {
-      "Pedigree": "https://dogs.pedigreeonline.com/psf-pantalaimon-0oVUjViY/pedigree",
-      "Health Testing (Embark)": "http://embk.me/psfpantalaimon?utm_campaign=cns_ref_dog_pub_profile&utm_medium=other&utm_source=embark",
-      "Health Testing (OFA)": "https://ofa.org/advanced-search/?appnum=1915931"
-    }
+    "links": [
+      {
+        "name": "Pedigree",
+        "path": "https://dogs.pedigreeonline.com/psf-pantalaimon-0oVUjViY/pedigree"
+      },
+      {
+        "name": "Health Testing (Embark)",
+        "path": "http://embk.me/psfpantalaimon?utm_campaign=cns_ref_dog_pub_profile&utm_medium=other&utm_source=embark"
+      },
+      {
+        "name": "Health Testing (OFA)",
+        "path": "https://ofa.org/advanced-search/?appnum=1915931"
+      }
+    ]
+  },
+  {
+    "registeredName": "Puzzle's Noodle Soup Du Jour",
+    "kennelName": "Lena (Semolina)",
+    "gender": "female",
+    "status": "Upcoming",
+    "titles": "",
+    "owners": "Proudly owned and loved by partners Beth & Jane S. in Minneapolis, MN",
+    "parents": "Blue Cedar's I've Been on a Bender x G2G Iskierka",
+    "dob": "2024-05-16",
+    "breed": "Sport-bred Mutt",
+    "physicalDesc": "white with brindle spots",
+    "about": "",
+    "links": [
+      {
+        "name": "Pedigree",
+        "path": "https://dogs.pedigreeonline.com/puzzles-noodle-soup-du-jour-0EnfygMI/pedigree"
+      },
+      {
+        "name": "Health Testing (Embark)",
+        "path": "http://embk.me/puzzles_sagwa?utm_campaign=cns_ref_dog_pub_profile&utm_medium=other&utm_source=embark"
+      }
+    ]
   }
 ]
