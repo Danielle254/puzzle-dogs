@@ -10,12 +10,12 @@ export type DogDetailsType = {
   breed: string;
   physicalDesc: string;
   about: string;
-  links: LinksType;
+  links: LinksType[];
 };
 
 export type LinksType = {
   name: string;
-  url: string;
+  path: string;
 };
 
 export type Gender = "male" | "female";
