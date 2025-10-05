@@ -34,20 +34,26 @@ export default function DogCard({ dog }: { dog: DogDetailsType }) {
       <TabsContent value="about">
         <Card>
           <CardHeader>
-            <div className="flex flex-row justify-between">
-              <CardTitle className="text-xl font-bold">{`"${dog.kennelName}"`}</CardTitle>
-              <Badge>{dog.status}</Badge>
+            <div className="flex justify-between">
+              <CardTitle>
+                <h3 className="text-xl font-bold">
+                  {dog.registeredName} {dog.titles}
+                </h3>
+              </CardTitle>
+              <Badge className="float-right">{dog.status}</Badge>
             </div>
-            <CardDescription className="text-lg">
-              <p>
-                {dog.registeredName} {dog.titles}
-              </p>
+            <p className="text-lg text-muted-foreground">{dog.parents}</p>
+            <img
+              src={dog.profile}
+              alt={dog.physicalDesc}
+              className="h-[150px] w-[150px] border-primary border-2 shadow"
+            />
+            <CardDescription>
+              <p className="text-lg">{`"${dog.kennelName}"`}</p>
             </CardDescription>
           </CardHeader>
           <CardContent>
-            <p className="text-lg">{dog.parents}</p>
             <p className="text-lg">{dog.owners}</p>
-
             <p className="text-lg">
               {calculateAge(dog.dob)} years old, {dog.breed} -{" "}
               {dog.physicalDesc}
@@ -55,9 +61,14 @@ export default function DogCard({ dog }: { dog: DogDetailsType }) {
             <br />
             <p>{dog.about}</p>
           </CardContent>
-          <CardFooter className="flex gap-4">
+          <CardFooter className="flex gap-8">
             {dog.links.map((link) => (
-              <Button variant="link" asChild key={link.path}>
+              <Button
+                variant="link"
+                asChild
+                key={link.path}
+                className="m-0 p-0"
+              >
                 <a href={link.path}>{link.name}</a>
               </Button>
             ))}
