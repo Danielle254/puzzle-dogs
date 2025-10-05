@@ -2,8 +2,7 @@ import Hero from "@/components/Hero";
 import CardList from "./components/CardList";
 import { promises as fs } from "fs";
 import path from "path";
-import { filterData } from "@/lib/utils";
-import { DogDetailsType, Gender, Status } from "../types/types";
+import { DogDetailsType } from "../types/types";
 
 export default async function OurDogs() {
   const filePath = path.join(process.cwd(), "app/data/dogData.json");
@@ -18,16 +17,12 @@ export default async function OurDogs() {
         imageClasses=""
       />
       <section className="max-w-[1000px] mx-auto py-12 px-4">
-        <h2>Active Girls</h2>
-        <CardList
-          dogs={filterData(data, "female" as Gender, "active" as Status)}
-        />
+        <h2>The Girls</h2>
+        <CardList dogs={data.filter((dog) => dog.gender === "female")} />
       </section>
       <section className="max-w-[1000px] mx-auto py-12 px-4">
-        <h2>Active Boys</h2>
-        <CardList
-          dogs={filterData(data, "male" as Gender, "active" as Status)}
-        />
+        <h2>The Boys</h2>
+        <CardList dogs={data.filter((dog) => dog.gender === "male")} />
       </section>
     </>
   );
