@@ -11,7 +11,7 @@ export default async function OurDogs() {
   return (
     <>
       <Hero
-        image="/images/boys.jpg"
+        image="/images/hero/boys.jpg"
         alt="two small dogs stand outside facing towards the camera"
         h1="Our Dogs"
         imageClasses=""
