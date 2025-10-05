@@ -3,7 +3,6 @@
 import { useState } from "react";
 import {
   Card,
-  CardAction,
   CardContent,
   CardDescription,
   CardFooter,
@@ -14,36 +13,61 @@ import { Badge } from "@/components/ui/badge";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import type { DogDetailsType } from "@/app/types/types";
 import { Carousel } from "@/components/ui/carousel";
+import { calculateAge } from "@/lib/utils";
+import { Button } from "@/components/ui/button";
 
 export default function DogCard({ dog }: { dog: DogDetailsType }) {
   const [showDetails, setShowDetails] = useState(false);
 
   return (
     <Tabs defaultValue="about">
-      <TabsList className="grid w-full lg:w-1/2 grid-cols-2">
-        <TabsTrigger value="about">About</TabsTrigger>
-        <TabsTrigger value="photos">Photos</TabsTrigger>
-      </TabsList>
+      <div className="flex justify-end">
+        <TabsList>
+          <TabsTrigger className="px-4 cursor-pointer" value="about">
+            About
+          </TabsTrigger>
+          <TabsTrigger className="px-4 cursor-pointer" value="photos">
+            Photos
+          </TabsTrigger>
+        </TabsList>
+      </div>
       <TabsContent value="about">
         <Card>
           <CardHeader>
-            <CardTitle className="text-xl font-bold">{`"${dog.kennelName}"`}</CardTitle>
-            <CardDescription>
-              {dog.registeredName} {dog.titles}
+            <div className="flex flex-row justify-between">
+              <CardTitle className="text-xl font-bold">{`"${dog.kennelName}"`}</CardTitle>
+              <Badge>{dog.status}</Badge>
+            </div>
+            <CardDescription className="text-lg">
+              <p>
+                {dog.registeredName} {dog.titles}
+              </p>
             </CardDescription>
-            <Badge>{dog.status}</Badge>
           </CardHeader>
           <CardContent>
-            <p>Card Content</p>
-            <CardAction onClick={() => setShowDetails(true)}>
-              See more..
-            </CardAction>
+            <p className="text-lg">{dog.parents}</p>
+            <p className="text-lg">{dog.owners}</p>
+
+            <p className="text-lg">
+              {calculateAge(dog.dob)} years old, {dog.breed} -{" "}
+              {dog.physicalDesc}
+            </p>
+            <br />
+            <p>{dog.about}</p>
           </CardContent>
-          <CardFooter></CardFooter>
+          <CardFooter className="flex gap-4">
+            {dog.links.map((link) => (
+              <Button variant="link" asChild key={link.path}>
+                <a href={link.path}>{link.name}</a>
+              </Button>
+            ))}
+          </CardFooter>
         </Card>
       </TabsContent>
       <TabsContent value="photos">
-        <Carousel></Carousel>
+        <Card>
+          <Carousel></Carousel>
+        </Card>
       </TabsContent>
     </Tabs>
   );
