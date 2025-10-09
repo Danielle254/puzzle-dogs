@@ -2,6 +2,8 @@ import Hero from "@/components/Hero";
 import Intro from "./components/Intro";
 import StayConnected from "./components/StayConnected";
 import UpcomingLitters from "./components/UpcomingLitters";
+import FAQ from "./components/FAQ";
+import Celebrations from "./components/Celebrations";
 
 export default function Home() {
   return (
@@ -14,6 +16,8 @@ export default function Home() {
       />
       <Intro />
       <UpcomingLitters />
+      <FAQ />
+      <Celebrations />
       <StayConnected />
     </div>
   );
