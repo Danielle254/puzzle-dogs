@@ -20,7 +20,12 @@ export default function CustomAccordion({
   const accordionItemStyling =
     "bg-background px-2 rounded mb-2 border-primary border-[1px] shadow";
   return (
-    <Accordion type="single" collapsible className="col-span-2">
+    <Accordion
+      type="single"
+      collapsible
+      className="col-span-2"
+      defaultValue={data[0].question}
+    >
       {data.map((item) => (
         <AccordionItem
           value={item.question}
