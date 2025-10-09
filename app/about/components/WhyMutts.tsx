@@ -1,8 +1,6 @@
 import CustomAccordion from "@/components/CustomAccordion";
 
 export default function WhyMutts() {
-  const accordionItemStyling =
-    "bg-background px-2 rounded mb-2 border-primary border-[1px] shadow";
   return (
     <section className="bg-primary/10">
       <div className="max-w-[1000px] mx-auto py-12 px-4">
