@@ -22,8 +22,8 @@ export default function StayConnected() {
           ></iframe>
         </div>
         <img
-          src="/images/pan_hero.jpg"
-          alt="brown and white dog holding a frisbee runs through a grass field"
+          src="/images/puppies.jpg"
+          alt="several small brown and white puppies on a grass field"
           className="rounded-sm shadow"
         />
       </div>
