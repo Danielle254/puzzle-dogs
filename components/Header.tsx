@@ -6,7 +6,7 @@ export default function Header() {
     <nav className="flex justify-between max-w-[1000px] h-20 mx-auto items-center px-2">
       <div className="flex items-end">
         <img
-          src="/placeholder_logo.jpg"
+          src="/images/logo/placeholder_logo.jpg"
           className="max-h-16"
           alt="Puzzle Dogs Logo - lime green dog with purple cape leaps up and to the right"
         />{" "}
