@@ -36,28 +36,26 @@ export default function DogCard({ dog }: { dog: DogDetailsType }) {
           <CardHeader>
             <div className="flex justify-between">
               <CardTitle>
-                <h3 className="text-xl font-bold">
-                  {dog.registeredName} {dog.titles}
-                </h3>
+                <h3 className="text-xl font-bold">"{dog.kennelName}"</h3>
               </CardTitle>
               <Badge className="float-right">{dog.status}</Badge>
             </div>
-            <p className="text-lg text-muted-foreground">{dog.parents}</p>
+            <p className="text-lg text-muted-foreground">
+              {calculateAge(dog.dob)} years old, {dog.breed} -{" "}
+              {dog.physicalDesc}
+            </p>
+            <p>{dog.owners}</p>
             <img
               src={dog.profile}
               alt={dog.physicalDesc}
               className="h-[150px] w-[150px] border-primary border-2 shadow"
             />
-            <CardDescription>
-              <p className="text-lg">{`"${dog.kennelName}"`}</p>
-            </CardDescription>
           </CardHeader>
           <CardContent>
-            <p className="text-lg">{dog.owners}</p>
             <p className="text-lg">
-              {calculateAge(dog.dob)} years old, {dog.breed} -{" "}
-              {dog.physicalDesc}
+              {dog.registeredName} {dog.titles}
             </p>
+            <p className="text-lg">{dog.parents}</p>
             <br />
             <p>{dog.about}</p>
           </CardContent>
