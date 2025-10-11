@@ -15,6 +15,7 @@ import { calculateAge } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
 import Chip from "@/components/Chip";
 import type { Status } from "@/app/types/types";
+import Link from "next/link";
 
 export default function DogCard({ dog }: { dog: DogDetailsType }) {
   function modifyChip(status: Status) {
@@ -44,31 +45,34 @@ export default function DogCard({ dog }: { dog: DogDetailsType }) {
       </div>
       <TabsContent value="about">
         <Card className={dog.status == "Active" ? "border-primary" : ""}>
-          <CardHeader>
-            <div className="flex justify-between">
-              <CardTitle>
-                <h3 className="text-xl font-bold">"{dog.kennelName}"</h3>
-              </CardTitle>
-              <Chip customClasses={modifyChip(dog.status)}>{dog.status}</Chip>
+          <CardHeader className="flex justify-between">
+            <CardTitle>
+              <h3 className="text-xl font-bold py-1">"{dog.kennelName}"</h3>
+            </CardTitle>
+            <Chip customClasses={modifyChip(dog.status)}>{dog.status}</Chip>
+          </CardHeader>
+          <CardContent className="flex justify-between gap-8">
+            <div className="text-foreground text-lg">
+              <p>
+                {calculateAge(dog.dob)} years old, {dog.breed}
+                <br />
+                {dog.physicalDesc}
+              </p>
+              <br />
+              <p>{dog.owners}</p>
+              <br />
+              <p>
+                Registered Name: {dog.registeredName} {dog.titles}
+              </p>
+              <p>Parents: {dog.parents}</p>
+              <br />
+              <p className="text-base text-foreground mt-4">{dog.about}</p>
             </div>
-            <p className="text-lg text-muted-foreground">
-              {calculateAge(dog.dob)} years old, {dog.breed} -{" "}
-              {dog.physicalDesc}
-            </p>
-            <p>{dog.owners}</p>
             <img
               src={dog.profile}
               alt={dog.physicalDesc}
-              className="h-[150px] w-[150px] border-primary border-2 shadow"
+              className="h-full max-w-[300px] border-primary border-2 shadow"
             />
-          </CardHeader>
-          <CardContent>
-            <p className="text-lg">
-              {dog.registeredName} {dog.titles}
-            </p>
-            <p className="text-lg">{dog.parents}</p>
-            <br />
-            <p>{dog.about}</p>
           </CardContent>
           <CardFooter className="flex gap-8">
             {dog.links.map((link) => (
@@ -87,6 +91,11 @@ export default function DogCard({ dog }: { dog: DogDetailsType }) {
       <TabsContent value="photos">
         <Card>
           <Carousel></Carousel>
+          <Button asChild variant="link">
+            <Link href="https://www.facebook.com/media/set/?set=a.107599764601568&type=3">
+              Gallery
+            </Link>
+          </Button>
         </Card>
       </TabsContent>
     </Tabs>
