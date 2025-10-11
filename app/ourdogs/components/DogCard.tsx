@@ -19,11 +19,11 @@ import type { Status } from "@/app/types/types";
 export default function DogCard({ dog }: { dog: DogDetailsType }) {
   function modifyChip(status: Status) {
     switch (status) {
-      case "active":
+      case "Active":
         return "bg-primary text-white";
-      case "upcoming":
-        return "bg-primary/50 text-foreground";
-      case "outside":
+      case "Upcoming":
+        return "bg-primary/40 text-foreground";
+      case "Outside":
         return "bg-blue-500 text-foreground";
       default:
         return "bg-primary text-white";
@@ -43,7 +43,7 @@ export default function DogCard({ dog }: { dog: DogDetailsType }) {
         </TabsList>
       </div>
       <TabsContent value="about">
-        <Card>
+        <Card className={dog.status == "Active" ? "border-primary" : ""}>
           <CardHeader>
             <div className="flex justify-between">
               <CardTitle>
