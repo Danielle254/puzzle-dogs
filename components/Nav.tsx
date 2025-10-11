@@ -10,7 +10,7 @@ export default function Nav({ classes }: { classes: string }) {
           asChild
           className="font-bold text-lg text-foreground "
         >
-          <Link href="/">HOME</Link>
+          <Link href="/">Home</Link>
         </Button>
       </li>
       <li>
@@ -19,7 +19,7 @@ export default function Nav({ classes }: { classes: string }) {
           asChild
           className="font-bold text-lg text-foreground"
         >
-          <Link href="/about">ABOUT</Link>
+          <Link href="/about">About</Link>
         </Button>
       </li>
       <li>
@@ -28,7 +28,7 @@ export default function Nav({ classes }: { classes: string }) {
           asChild
           className="font-bold text-lg text-foreground"
         >
-          <Link href="/ourdogs">OUR DOGS</Link>
+          <Link href="/ourdogs">Our Dogs</Link>
         </Button>
       </li>
       <li>
