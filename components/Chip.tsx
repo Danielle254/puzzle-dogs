@@ -6,7 +6,9 @@ export default function Chip({
   children: React.ReactNode;
 }) {
   return (
-    <p className={`${customClasses} px-2 py-1 text-lg font-semibold`}>
+    <p
+      className={`${customClasses} px-4 py-1 text-lg font-semibold rounded-full`}
+    >
       {children}
     </p>
   );
