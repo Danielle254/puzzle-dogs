@@ -1,6 +1,5 @@
 "use client";
 
-import { useState } from "react";
 import {
   Card,
   CardContent,
@@ -9,15 +8,27 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
-import { Badge } from "@/components/ui/badge";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import type { DogDetailsType } from "@/app/types/types";
 import { Carousel } from "@/components/ui/carousel";
 import { calculateAge } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
+import Chip from "@/components/Chip";
+import type { Status } from "@/app/types/types";
 
 export default function DogCard({ dog }: { dog: DogDetailsType }) {
-  const [showDetails, setShowDetails] = useState(false);
+  function modifyChip(status: Status) {
+    switch (status) {
+      case "active":
+        return "bg-primary text-white";
+      case "upcoming":
+        return "bg-primary/50 text-foreground";
+      case "outside":
+        return "bg-blue-500 text-foreground";
+      default:
+        return "bg-primary text-white";
+    }
+  }
 
   return (
     <Tabs defaultValue="about">
@@ -38,7 +49,7 @@ export default function DogCard({ dog }: { dog: DogDetailsType }) {
               <CardTitle>
                 <h3 className="text-xl font-bold">"{dog.kennelName}"</h3>
               </CardTitle>
-              <Badge className="float-right">{dog.status}</Badge>
+              <Chip customClasses={modifyChip(dog.status)}>{dog.status}</Chip>
             </div>
             <p className="text-lg text-muted-foreground">
               {calculateAge(dog.dob)} years old, {dog.breed} -{" "}
