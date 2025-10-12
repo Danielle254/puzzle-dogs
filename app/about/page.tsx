@@ -9,7 +9,7 @@ export default function About() {
   return (
     <div>
       <Hero
-        image="/images/philosophy.jpg"
+        image="/images/hero/philosophy.jpg"
         alt="two small brown and white dogs play tug with a frisbee while female owner walks nearby"
         h1="About Us"
         imageClasses="object-top"

@@ -52,7 +52,7 @@ export default function Intro() {
         </p>
       </div>
       <Button variant="outline" asChild>
-        <Link href="https://www.facebook.com/puzdog/">LEARN MORE</Link>
+        <Link href="/about">LEARN MORE</Link>
       </Button>
     </section>
   );

@@ -29,7 +29,9 @@ export default function BreedingPhilosophy() {
         />
       </div>
       <Button variant="outline" asChild>
-        <Link href="https://www.facebook.com/puzdog/">LEARN MORE</Link>
+        <Link href="https://www.facebook.com/share/p/1BdSpGpDS2/">
+          LEARN MORE
+        </Link>
       </Button>
     </section>
   );
