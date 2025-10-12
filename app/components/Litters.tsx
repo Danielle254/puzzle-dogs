@@ -39,7 +39,7 @@ const litters: LittersType[] = [
     name: "The Happy Pills",
     parents: "Rivet x Biz",
     date: "9/18/25",
-    img: "/images/litters/rivetXbizza.jpg",
+    img: "/images/litters/rivetXbiz.jpg",
     link: "https://www.facebook.com/groups/1284773736438170/",
   },
   {
