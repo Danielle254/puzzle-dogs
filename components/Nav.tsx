@@ -1,36 +1,21 @@
 import { Button } from "./ui/button";
 import Link from "next/link";
+import type { LinksType } from "@/app/types/types";
 
 export default function Nav({ classes }: { classes: string }) {
   return (
     <ul className={classes}>
-      <li>
-        <Button
-          variant="link"
-          asChild
-          className="font-bold text-lg text-foreground "
-        >
-          <Link href="/">Home</Link>
-        </Button>
-      </li>
-      <li>
-        <Button
-          variant="link"
-          asChild
-          className="font-bold text-lg text-foreground"
-        >
-          <Link href="/about">About</Link>
-        </Button>
-      </li>
-      <li>
-        <Button
-          variant="link"
-          asChild
-          className="font-bold text-lg text-foreground"
-        >
-          <Link href="/ourdogs">Our Dogs</Link>
-        </Button>
-      </li>
+      {navLinks.map((link) => (
+        <li key={link.name}>
+          <Button
+            variant="link"
+            asChild
+            className="font-medium text-lg text-foreground atma"
+          >
+            <Link href={link.path}>{link.name}</Link>
+          </Button>
+        </li>
+      ))}
       <li>
         <Button asChild>
           <Link href="https://www.facebook.com/puzdog/">LEARN MORE</Link>
@@ -39,3 +24,9 @@ export default function Nav({ classes }: { classes: string }) {
     </ul>
   );
 }
+
+const navLinks: LinksType[] = [
+  { name: "Home", path: "/" },
+  { name: "About", path: "/about" },
+  { name: "Our Dogs", path: "/ourdogs" },
+];
