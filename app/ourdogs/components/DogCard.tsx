@@ -71,7 +71,7 @@ export default function DogCard({ dog }: { dog: DogDetailsType }) {
             <img
               src={dog.profile}
               alt={dog.physicalDesc}
-              className="h-full max-w-[300px] border-primary border-2 shadow"
+              className="h-full max-w-[300px] border-primary border-2 shadow rounded"
             />
           </CardContent>
           <CardFooter className="flex gap-8">
