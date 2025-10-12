@@ -7,14 +7,17 @@ type HeroProps = {
 
 export default function Hero({ image, alt, h1, imageClasses }: HeroProps) {
   return (
-    <section className="relative">
-      <img
-        src={image}
-        alt={alt}
-        className={`w-full max-h-[calc(100vh-80px)] object-cover ${imageClasses}`}
-      />
-      <div className="absolute top-0 left-0 text-left lg:text-center mt-4 md:mt-12 w-full lg:w-[1000px] pl-4 lg:pl-0">
-        <h1 className="text-2xl sm:text-4xl text-background">{h1}</h1>
+    <section className="relative w-full min-h-[calc(100vh-80px)]">
+      <div className="absolute inset-0 w-full h-full">
+        <img
+          src={image}
+          alt={alt}
+          className={`w-full h-full object-cover ${imageClasses}`}
+        />
+        <div className="absolute inset-0 bg-black opacity-30"></div>
+      </div>
+      <div className="absolute top-1/5 left-1/2 -translate-x-1/2 -translate-y-1/2 z-10 text-center text-white">
+        <h1 className="text-4xl">{h1}</h1>
       </div>
     </section>
   );

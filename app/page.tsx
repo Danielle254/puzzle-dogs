@@ -1,7 +1,7 @@
 import Hero from "@/components/Hero";
 import Intro from "./components/Intro";
 import StayConnected from "./components/StayConnected";
-import UpcomingLitters from "./components/UpcomingLitters";
+import Litters from "./components/Litters";
 import FAQ from "./components/FAQ";
 import Celebrations from "./components/Celebrations";
 
@@ -15,7 +15,7 @@ export default function Home() {
         imageClasses="object-center"
       />
       <Intro />
-      <UpcomingLitters />
+      <Litters />
       <FAQ />
       <Celebrations />
       <StayConnected />

@@ -21,4 +21,4 @@ export type LinksType = {
 
 export type Gender = "male" | "female";
 
-export type Status = "active" | "upcoming" | "other" | "outside" | "previous";
+export type Status = "Active" | "Upcoming" | "Outside";

@@ -13,6 +13,11 @@ export default function Footer() {
           </p>
           <div className="flex flex-row gap-8">
             <Button variant="link" asChild className="m-0 p-0">
+              <Link href="/">
+                <p>Home</p>
+              </Link>
+            </Button>
+            <Button variant="link" asChild className="m-0 p-0">
               <Link href="/about">
                 <p>About</p>
               </Link>
