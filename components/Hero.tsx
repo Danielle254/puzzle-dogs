@@ -17,7 +17,7 @@ export default function Hero({ image, alt, h1, imageClasses }: HeroProps) {
         <div className="absolute inset-0 bg-black opacity-30"></div>
       </div>
       <div className="absolute top-1/5 left-1/2 -translate-x-1/2 -translate-y-1/2 z-10 text-center text-white">
-        <h1 className="text-4xl">{h1}</h1>
+        <h1>{h1}</h1>
       </div>
     </section>
   );
