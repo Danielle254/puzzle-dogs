@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Atma:wght@400;500&display=swap");
 @import "tailwindcss";
 @import "tw-animate-css";
 
@@ -42,6 +43,7 @@
 }
 
 :root {
+  --font-atma: "Atma", sans-serif;
   --radius: 0.625rem;
   --background: oklch(0.9702 0 0);
   --foreground: oklch(0.2809 0 0);
@@ -83,10 +85,19 @@
   body {
     @apply bg-background text-foreground;
   }
-}
+  h2 {
+    font-size: 40px;
+    font-weight: medium;
+    padding-bottom: 24px;
+    font-family: var(--font-atma);
+  }
 
-h2 {
-  font-size: 32px;
-  font-weight: bold;
-  padding-bottom: 24px;
+  h1 {
+    font-family: var(--font-atma);
+    font-wight: medium;
+    font-size: 50px;
+  }
+  .atma {
+    font-family: var(--font-atma);
+  }
 }
