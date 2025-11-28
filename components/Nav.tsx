@@ -10,7 +10,7 @@ export default function Nav({ classes }: { classes: string }) {
           <Button
             variant="link"
             asChild
-            className="font-medium text-lg text-foreground atma"
+            className="font-medium text-lg text-foreground atma transition duration-300 ease-in-out hover:scale-105"
           >
             <Link href={link.path}>{link.name}</Link>
           </Button>

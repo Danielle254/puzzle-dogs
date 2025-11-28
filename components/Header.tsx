@@ -9,7 +9,7 @@ export default function Header() {
         <Link href="/">
           <img
             src="/images/logo/logo_horizontal.png"
-            className="max-h-16"
+            className="max-h-16 transition duration-300 ease-in-out hover:scale-105"
             alt="Puzzle Dogs Logo - lime green dog with purple cape leaps up and to the right"
           />
         </Link>
