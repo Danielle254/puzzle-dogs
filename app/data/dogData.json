@@ -25,7 +25,8 @@
         "name": "Health Testing (OFA)",
         "path": "https://ofa.org/advanced-search/?appnum=2229522"
       }
-    ]
+    ],
+    "gallery": "https://www.facebook.com/media/set/?set=a.107599764601568&type=3"
   },
   {
     "registeredName": "PSF Pantalaimon",
@@ -53,13 +54,14 @@
         "name": "Health Testing (OFA)",
         "path": "https://ofa.org/advanced-search/?appnum=1915931"
       }
-    ]
+    ],
+    "gallery": "https://www.facebook.com/media/set/?set=a.107597671268444&type=3"
   },
   {
     "registeredName": "Puzzle's Noodle Soup Du Jour",
     "kennelName": "Lena (Semolina)",
     "gender": "female",
-    "profile": "/images/profile/biz_profile.jpg",
+    "profile": "",
     "status": "Upcoming",
     "titles": "",
     "owners": "Proudly owned and loved by partners Beth & Jane S. in Minneapolis, MN",
@@ -76,6 +78,287 @@
       {
         "name": "Health Testing (Embark)",
         "path": "http://embk.me/puzzles_sagwa?utm_campaign=cns_ref_dog_pub_profile&utm_medium=other&utm_source=embark"
+      }
+    ]
+  },
+  {
+    "registeredName": "Puzzle's Apple of My Eye",
+    "kennelName": "Sagwa",
+    "gender": "female",
+    "profile": "",
+    "status": "Upcoming",
+    "titles": "",
+    "owners": "Proudly owned and loved by partner Lucie B.K. in Saint Paul, MN",
+    "parents": "Blue Cedar's I've Been on a Bender x G2G Iskierka",
+    "dob": "2024-05-16",
+    "breed": "Sport-bred Mutt",
+    "physicalDesc": "white with sable spots",
+    "about": "",
+    "links": [
+      {
+        "name": "Pedigree",
+        "path": "https://dogs.pedigreeonline.com/puzzles-apple-of-my-eye-QXXu0wPT/pedigree"
+      },
+      {
+        "name": "Health Testing (Embark)",
+        "path": "http://embk.me/puzzles_sagwa?utm_campaign=cns_ref_dog_pub_profile&utm_medium=other&utm_source=embark"
+      }
+    ]
+  },
+  {
+    "registeredName": "Puzzle's You Dim Sum, You Lose Some",
+    "kennelName": "Gyoza",
+    "gender": "female",
+    "profile": "",
+    "status": "Upcoming",
+    "titles": "",
+    "owners": "Proudly owned and loved by partner Elora L. in Anchorage, AK",
+    "parents": "Blue Cedar's I've Been on a Bender x G2G Iskierka",
+    "dob": "2024-05-16",
+    "breed": "Sport-bred Mutt",
+    "physicalDesc": "sable with white trim",
+    "about": "",
+    "links": [
+      {
+        "name": "Pedigree",
+        "path": "https://dogs.pedigreeonline.com/puzzles-you-dim-sum-you-lose-some-H0vgTWpj/pedigree"
+      },
+      {
+        "name": "Health Testing (Embark)",
+        "path": "http://embk.me/puzzlesgyoza?utm_campaign=cns_ref_dog_pub_profile&utm_medium=other&utm_source=embark"
+      }
+    ]
+  },
+  {
+    "registeredName": "Blue Cedar's the Morrigan",
+    "kennelName": "Rig",
+    "gender": "female",
+    "profile": "/images/profile/rig_profile.jpg",
+    "status": "Other",
+    "titles": "CCC1 NTD",
+    "owners": "Spoiled and loved by Sara and Matt in Burnsville, MN",
+    "parents": "Blue Cedar's Artful Dodger x Nagini Armagedogz Gypsies Two",
+    "dob": "2021-08-08",
+    "breed": "Sport-bred Mutt",
+    "physicalDesc": "18.5\", 29lb, tricolor",
+    "about": "Excluded from our breeding program for temperament reasons and elbow dysplasia. About: Rig is the best “fun auntie” to all of our puppies! She’s a complicated girl with lots of Big Feels, but tries her hardest and is working on feeling safe away from home. She has a lot of drive and enthusiasm, and loves disc, nose work, and lure coursing. While she’s scared of unfamiliar dogs, she ADORES “helping” to raise puppies, and remembers her “big friends” even years later.",
+    "links": [
+      {
+        "name": "Pedigree",
+        "path": "https://dogs.pedigreeonline.com/blue-cedars-morrigan-6bZe9ERI/"
+      },
+      {
+        "name": "Health Testing (Embark)",
+        "path": "http://embk.me/bluecedarsmorrigan?utm_campaign=cns_ref_dog_pub_profile&utm_medium=other&utm_source=embark"
+      },
+      {
+        "name": "Health Testing (OFA)",
+        "path": "https://ofa.org/advanced-search/?appnum=2352448"
+      }
+    ],
+    "gallery": "https://www.facebook.com/media/set/?set=a.312586544102888&type=3"
+  },
+  {
+    "registeredName": "Puzzle's Coraline",
+    "kennelName": "Cora",
+    "gender": "female",
+    "profile": "",
+    "status": "Other",
+    "titles": "Pet Partners Therapy Dog, RATI, CCSS-L1",
+    "owners": "Proudly owned and loved by Jaceil C. and family in Saint Michael, MN",
+    "parents": "ComfortMe Benny GoodTimes x G2G Iskierka",
+    "dob": "2022-07-15",
+    "breed": "Sport-bred Mutt",
+    "physicalDesc": "white with sable spots",
+    "about": "50% Cavalier King Charles Spaniel outcross. Excluded from our breeding program due to asymptomatic grade B1 mitral valve defect, discovered on her advanced cardiac OFA screening (echocardiogram) in July of 2025.",
+    "links": [
+      {
+        "name": "Pedigree",
+        "path": "https://dogs.pedigreeonline.com/puzzles-coraline-OzyctOpu/pedigree"
+      },
+      {
+        "name": "Health Testing (Embark)",
+        "path": "http://embk.me/puzzlessamba?utm_campaign=cns_ref_dog_pub_profile&utm_medium=other&utm_source=embark"
+      },
+      {
+        "name": "Health Testing (OFA)",
+        "path": "https://ofa.org/advanced-search/?appnum=2517008"
+      }
+    ]
+  },
+  {
+    "registeredName": "Puzzle's Hellzapoppin' Ain't Misbehavin'",
+    "kennelName": "Mooch",
+    "gender": "male",
+    "profile": "",
+    "status": "Upcoming",
+    "titles": "CGC SPOT LCI",
+    "owners": "Proudly owned and loved by partner Lindsay K. in Inver Grove Heights, MN",
+    "parents": "ComfortMe Benny GoodTimes x G2G Iskierka",
+    "dob": "2022-07-15",
+    "breed": "Sport-bred Mutt",
+    "physicalDesc": "tricolor",
+    "about": "",
+    "links": [
+      {
+        "name": "Pedigree",
+        "path": "https://dogs.pedigreeonline.com/puzzles-hellzapoppin-aint-misbehavin-zu8nOcUm/pedigree"
+      },
+      {
+        "name": "Health Testing (Embark)",
+        "path": "http://embk.me/puzzleslindyhop?utm_campaign=cns_ref_dog_pub_profile&utm_medium=other&utm_source=embark"
+      },
+      {
+        "name": "Health Testing (OFA)",
+        "path": "https://ofa.org/advanced-search/?appnum=2517006"
+      }
+    ]
+  },
+  {
+    "registeredName": "Puzzle's Dragon of the West",
+    "kennelName": "Iroh",
+    "gender": "male",
+    "profile": "",
+    "status": "Upcoming",
+    "titles": "LCI",
+    "owners": "Proudly owned and loved by partners Pam & Tony H. in Alexandria, MN",
+    "parents": "ComfortMe Benny GoodTimes x G2G Iskierka",
+    "dob": "2022-07-15",
+    "breed": "Sport-bred Mutt",
+    "physicalDesc": "12\", 17lb, tricolor",
+    "about": "50% Cavalier King Charles Spaniel outcross. Iroh is the perfect companion for my in-laws! He walks 3.5 miles daily with his grandpa Tony, and gives endless snuggles and kisses. He loves to play fetch, go for boat rides, and snuggle under his blanket.",
+    "links": [
+      {
+        "name": "Pedigree",
+        "path": "https://dogs.pedigreeonline.com/puzzles-dragon-of-the-west-SJTdfWxn/pedigree"
+      },
+      {
+        "name": "Health Testing (Embark)",
+        "path": "http://embk.me/puzzlestango?utm_campaign=cns_ref_dog_pub_profile&utm_medium=other&utm_source=embark"
+      },
+      {
+        "name": "Health Testing (OFA)",
+        "path": "https://ofa.org/advanced-search/?appnum=2517001"
+      }
+    ]
+  },
+  {
+    "registeredName": "Puzzle's What a Little Beauty",
+    "kennelName": "Irwin",
+    "gender": "male",
+    "profile": "",
+    "status": "Upcoming",
+    "titles": "NW1",
+    "owners": "Proudly owned and loved by partner Johanna S. in Halethorpe, MD",
+    "parents": "ComfortMe Benny GoodTimes x G2G Iskierka",
+    "dob": "2022-07-15",
+    "breed": "Sport-bred Mutt",
+    "physicalDesc": "white with sable spots",
+    "about": "50% Cavalier King Charles Spaniel outcross.",
+    "links": [
+      {
+        "name": "Pedigree",
+        "path": "https://dogs.pedigreeonline.com/puzzles-what-a-little-beauty-pZUqTe4B/pedigree"
+      },
+      {
+        "name": "Health Testing (Embark)",
+        "path": "http://embk.me/puzzlesjitterbug?utm_campaign=cns_ref_dog_pub_profile&utm_medium=other&utm_source=embark"
+      }
+    ]
+  },
+  {
+    "registeredName": "Puzzle's Ripley Van",
+    "kennelName": "Ripley",
+    "gender": "male",
+    "profile": "",
+    "status": "Upcoming",
+    "titles": "",
+    "owners": "Proudly owned and loved by partners Rachel & Jake M. in Bay City, WI",
+    "parents": "Blue Cedar's I've Been on a Bender x G2G Iskierka",
+    "dob": "2024-05-16",
+    "breed": "Sport-bred Mutt",
+    "physicalDesc": "white with brindle spots",
+    "about": "",
+    "links": [
+      {
+        "name": "Pedigree",
+        "path": "https://dogs.pedigreeonline.com/puzzles-ripley-van-EET46ehT/pedigree"
+      },
+      {
+        "name": "Health Testing (Embark)",
+        "path": "http://embk.me/puzzlesripdip?utm_campaign=cns_ref_dog_pub_profile&utm_medium=other&utm_source=embark"
+      }
+    ]
+  },
+  {
+    "registeredName": "Puzzle's Inspector Gadget",
+    "kennelName": "Gadget",
+    "gender": "male",
+    "profile": "",
+    "status": "Upcoming",
+    "titles": "",
+    "owners": "Proudly owned and loved by partner Jessica B. in Riverside, IA",
+    "parents": "Blue Cedar's I've Been on a Bender x G2G Iskierka",
+    "dob": "2024-05-16",
+    "breed": "Sport-bred Mutt",
+    "physicalDesc": "brindle with white trim",
+    "about": "",
+    "links": [
+      {
+        "name": "Pedigree",
+        "path": "https://dogs.pedigreeonline.com/puzzles-inspector-gadget-1aCsQD0C/pedigree"
+      },
+      {
+        "name": "Health Testing (Embark)",
+        "path": "http://embk.me/puzzlesgadget"
+      }
+    ]
+  },
+  {
+    "registeredName": "Puzzle's Extraordinary Poindexter",
+    "kennelName": "EGG!",
+    "gender": "male",
+    "profile": "",
+    "status": "Upcoming",
+    "titles": "",
+    "owners": "Proudly owned and loved by partner Kim B. in Spring Lake Park, MN",
+    "parents": "Blue Cedar's I've Been on a Bender x G2G Iskierka",
+    "dob": "2024-05-16",
+    "breed": "Sport-bred Mutt",
+    "physicalDesc": "white with sable spots",
+    "about": "",
+    "links": [
+      {
+        "name": "Pedigree",
+        "path": "https://dogs.pedigreeonline.com/puzzles-eggstraordinary-poindexter-3OSXdmdU/pedigree"
+      },
+      {
+        "name": "Health Testing (Embark)",
+        "path": "http://embk.me/puzzlesegg?utm_campaign=cns_ref_dog_pub_profile&utm_medium=other&utm_source=embark"
+      }
+    ]
+  },
+  {
+    "registeredName": "Puzzle's One With the Force",
+    "kennelName": "Kyber",
+    "gender": "male",
+    "profile": "",
+    "status": "Other",
+    "titles": "CGC ORT",
+    "owners": "Proudly owned and loved by partners Stephanie & Chuck B. in Dayton, MD",
+    "parents": "ComfortMe Benny GoodTimes x G2G Iskierka",
+    "dob": "2022-07-15",
+    "breed": "50% Cavalier King Charles Spaniel outcross",
+    "physicalDesc": "14.5\", 17lb, white with sable spots",
+    "about": "Excluded from our breeding program due to mild chiari-like malformation & occult tethered cord syndrome, both diagnosed via MRI in September 2025. About: Kyber is a delightfully sweet and social little dog, who has many human and dog friends. He has a great nose, and he loves nose work and dog “social sniffing.” Kyber also enjoys playing fetch and tug, learning tricks, playing puzzle games, and napping with giant stuffy toys – the bigger the better!",
+    "links": [
+      {
+        "name": "Pedigree",
+        "path": "https://dogs.pedigreeonline.com/puzzles-one-with-the-force-nbL1LLuT/pedigree"
+      },
+      {
+        "name": "Health Testing (Embark)",
+        "path": "http://embk.me/puzzlesfoxtrot?utm_campaign=cns_ref_dog_pub_profile&utm_medium=other&utm_source=embark"
       }
     ]
   }
