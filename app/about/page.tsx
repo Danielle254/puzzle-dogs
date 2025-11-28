@@ -18,7 +18,7 @@ export default function About() {
       <AboutSara />
       <Origin />
       <WhyMutts />
-      <Community />
+      {/*  <Community /> */}
     </div>
   );
 }

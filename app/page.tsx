@@ -17,7 +17,7 @@ export default function Home() {
       <Intro />
       <Litters />
       <FAQ />
-      <Celebrations />
+      {/* <Celebrations /> */}
       <StayConnected />
     </div>
   );
