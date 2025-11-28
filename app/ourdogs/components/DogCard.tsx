@@ -23,7 +23,7 @@ export default function DogCard({ dog }: { dog: DogDetailsType }) {
       case "Upcoming":
         return "bg-primary/40 text-foreground";
       case "Other":
-        return "bg-blue-400 text-foreground";
+        return "bg-blue-300 text-foreground";
       default:
         return "bg-primary text-white";
     }
