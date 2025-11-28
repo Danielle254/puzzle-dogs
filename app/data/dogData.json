@@ -190,7 +190,7 @@
     "registeredName": "Puzzle's Hellzapoppin' Ain't Misbehavin'",
     "kennelName": "Mooch",
     "gender": "male",
-    "profile": "",
+    "profile": "/images/profile/mooch_profile.jpg",
     "status": "Upcoming",
     "titles": "CGC SPOT LCI",
     "owners": "Proudly owned and loved by partner Lindsay K. in Inver Grove Heights, MN",
@@ -212,13 +212,14 @@
         "name": "Health Testing (OFA)",
         "path": "https://ofa.org/advanced-search/?appnum=2517006"
       }
-    ]
+    ],
+    "gallery": "https://www.facebook.com/profile.php?id=100087447074030&sk=photos"
   },
   {
     "registeredName": "Puzzle's Dragon of the West",
     "kennelName": "Iroh",
     "gender": "male",
-    "profile": "",
+    "profile": "/images/profile/iroh_profile.jpg",
     "status": "Upcoming",
     "titles": "LCI",
     "owners": "Proudly owned and loved by partners Pam & Tony H. in Alexandria, MN",
