@@ -12,6 +12,7 @@ export type DogDetailsType = {
   physicalDesc: string;
   about: string;
   links: LinksType[];
+  gallery?: string;
 };
 
 export type LinksType = {
@@ -21,4 +22,4 @@ export type LinksType = {
 
 export type Gender = "male" | "female";
 
-export type Status = "Active" | "Upcoming" | "Outside";
+export type Status = "Active" | "Upcoming" | "Other";
