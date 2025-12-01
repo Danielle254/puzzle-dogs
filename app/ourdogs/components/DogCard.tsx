@@ -38,7 +38,7 @@ export default function DogCard({ dog }: { dog: DogDetailsType }) {
           </CardTitle>
           <Chip customClasses={modifyChip(dog.status)}>{dog.status}</Chip>
         </CardHeader>
-        <CardContent className="flex flex-col-reverse lg:flex-row lg:justify-between gap-8">
+        <CardContent className="flex flex-col-reverse sm:flex-row sm:justify-between gap-8">
           <div className="text-foreground text-lg">
             <p>
               {calculateAge(dog.dob)} years old, {dog.breed}
@@ -66,8 +66,8 @@ export default function DogCard({ dog }: { dog: DogDetailsType }) {
           />
         </CardContent>
         <CardFooter>
-          <div className="flex flex-col lg:flex-row lg:justify-between w-full gap-2">
-            <div className="flex gap-2 lg:gap-8 flex-wrap">
+          <div className="flex flex-col sm:flex-row sm:justify-between w-full gap-2">
+            <div className="flex gap-2 sm:gap-8 flex-wrap">
               {dog.links.map((link) => (
                 <Button
                   variant="link"
