@@ -13,7 +13,7 @@ export default function Home() {
         image="/images/hero/pan_hero_2.jpg"
         alt="small brown and white dog runs across a grass field"
         h1="Puzzle Dogs"
-        imageClasses="object-center"
+        imageClasses="object-left sm:object-center"
       />
       <Intro />
       <Litters />
