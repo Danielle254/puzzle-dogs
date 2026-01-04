@@ -1,40 +1,36 @@
-import {
-  Drawer,
-  DrawerClose,
-  DrawerContent,
-  DrawerTitle,
-  DrawerHeader,
-  DrawerTrigger,
-} from "@/components/ui/drawer";
-import { X, Menu } from "lucide-react";
+"use client";
+
+import React from "react";
+import { X } from "lucide-react";
 import Nav from "./Nav";
 import { FocusTrap } from "focus-trap-react";
 
-export default function MobileNav() {
+type DrawerProps = {
+  isOpen: boolean;
+  closeMenu: () => void;
+};
+
+export default function MobileNav({ isOpen, closeMenu }: DrawerProps) {
   return (
-    <div className="md:hidden">
-      <Drawer direction="right">
-        <DrawerTrigger className="cursor-pointer" aria-label="open mobile menu">
-          <Menu />
-        </DrawerTrigger>
-        <DrawerContent className="w-screen p-4">
-          <DrawerHeader>
-            <DrawerTitle className="sr-only">
-              mobile navigation menu
-            </DrawerTitle>
-          </DrawerHeader>
-          <div>
-            <DrawerClose
-              className="absolute top-4 right-4 cursor-pointer"
-              aria-label="close mobile menu"
-              autoFocus
-            >
-              <X size={32} />
-            </DrawerClose>
-            <Nav classes="flex flex-col gap-4 items-start md:hidden pt-12" />
-          </div>
-        </DrawerContent>
-      </Drawer>
-    </div>
+    <FocusTrap active={isOpen}>
+      <div
+        className={`fixed top-0 right-0 py-6 z-10 h-full w-full transition-transform duration-300 transform bg-background flex flex-col justify-center items-center ${
+          isOpen ? "translate-x-0" : "translate-x-full invisible"
+        }`}
+      >
+        <button
+          onClick={closeMenu}
+          className="fixed top-8 right-6 border border-transparent hover:border-foreground cursor-pointer"
+          aria-label="close menu"
+          tabIndex={isOpen ? 0 : -1}
+        >
+          <X aria-hidden="true" />
+        </button>
+        <Nav
+          classes="flex flex-col gap-4 items-start md:hidden pt-12"
+          closeMenu={closeMenu}
+        />
+      </div>
+    </FocusTrap>
   );
 }

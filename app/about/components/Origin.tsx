@@ -3,7 +3,11 @@ export default function Origin() {
     <section className="max-w-[1000px] mx-auto py-12 px-4">
       <h2>Puzzle Dogs Origin</h2>
       <div className="flex flex-col gap-8 pb-8">
-        <img src="/images/sara_family.jpg" className="rounded-sm shadow" />
+        <img
+          src="/images/sara_family.jpg"
+          className="rounded-sm shadow"
+          alt="Sara Reusche and partner Matt stand in a grassy field with their 4 dogs"
+        />
         <p className="text-lg">
           Honestly, in Minnesota we have a shortage of suitable pet dogs for the
           average family. While we handle this by shipping dogs into our state

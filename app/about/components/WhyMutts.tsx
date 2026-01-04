@@ -10,6 +10,7 @@ export default function WhyMutts() {
           <img
             src="/images/iroh.jpg"
             className="rounded-sm shadow col-span-1 max-w-[400px]"
+            alt="small black and tan dog stands on top of a downed tree"
           />
         </div>
       </div>

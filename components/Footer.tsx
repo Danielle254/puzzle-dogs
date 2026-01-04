@@ -6,12 +6,11 @@ export default function Footer() {
     <footer className="bg-primary/10 py-4 px-4">
       <div className="max-w-[1000px] mx-auto">
         <div className="flex flex-col items-start gap-2">
-          {/* Copyright Statement */}
           <p>
             &copy; {new Date().getFullYear()} Sara Reusche & Puzzle Dogs. All
             rights reserved.
           </p>
-          <div className="flex flex-row gap-8">
+          <div className="flex flex-row flex-wrap gap-x-8">
             <Button variant="link" asChild className="m-0 p-0">
               <Link href="/">
                 <p>Home</p>

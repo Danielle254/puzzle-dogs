@@ -10,6 +10,7 @@ export default async function OurDogs() {
   const data: DogDetailsType[] = JSON.parse(fileContents);
   return (
     <>
+      <title>Our Dogs | Puzzle Dogs</title>
       <Hero
         image="/images/hero/boys.jpg"
         alt="two small dogs stand outside facing towards the camera"
