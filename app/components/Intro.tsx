@@ -10,6 +10,7 @@ export default function Intro() {
           <img
             src="/images/sara.jpg"
             className="rounded-sm shadow max-w-[400px] md:float-right md:ml-8 mb-4 md:mb-0"
+            alt="Sara Reusche - a white woman with medium length pink hair and glasses sits on a chair smiling at the camera with dog Biz on her lap"
           />
           Hello! My name is Sara (she/her), and I’m the original face behind
           Puzzle Dogs.
