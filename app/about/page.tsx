@@ -8,6 +8,7 @@ import Hero from "@/components/Hero";
 export default function About() {
   return (
     <div>
+      <title>About | Puzzle Dogs</title>
       <Hero
         image="/images/hero/philosophy.jpg"
         alt="two small brown and white dogs play tug with a frisbee while female owner walks nearby"

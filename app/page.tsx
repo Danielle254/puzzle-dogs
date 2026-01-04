@@ -8,6 +8,7 @@ import Celebrations from "./components/Celebrations";
 export default function Home() {
   return (
     <div>
+      <title>Puzzle Dogs</title>
       <Hero
         image="/images/hero/pan_hero_2.jpg"
         alt="small brown and white dog runs across a grass field"
